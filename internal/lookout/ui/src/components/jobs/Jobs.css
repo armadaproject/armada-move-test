@@ -22,7 +22,7 @@
 .ReactVirtualized__Table,
 .ReactVirtualized__Table__Grid,
 .ReactVirtualized__Table__headerRow {
-  width: 100% !important;
+  /* width: 100% !important; */
 }
 
 /* Disable table outline */

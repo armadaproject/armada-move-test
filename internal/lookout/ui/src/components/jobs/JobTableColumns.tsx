@@ -35,7 +35,9 @@ export default function createJobTableColumns(props: JobTableColumnsProps) {
           <Column
             key={i}
             dataKey={col.accessor}
-            width={calculateColumnWidth(col.width, leftoverWidth, totalColumnWeight)}
+            flexGrow={0}
+            flexShrink={0}
+            width={500}
             label={col.name}
             headerRenderer={(headerProps) => (
               <SortableHeaderCell
@@ -54,7 +56,9 @@ export default function createJobTableColumns(props: JobTableColumnsProps) {
           <Column
             key={i}
             dataKey={col.accessor}
-            width={calculateColumnWidth(col.width, leftoverWidth, totalColumnWeight)}
+            flexGrow={0}
+            flexShrink={0}
+            width={500}
             label={col.name}
             cellRenderer={(cellProps) => <JobStateCell {...cellProps} />}
             style={{ height: "100%" }}
@@ -73,7 +77,9 @@ export default function createJobTableColumns(props: JobTableColumnsProps) {
           <Column
             key={i}
             dataKey={col.accessor}
-            width={calculateColumnWidth(col.width, leftoverWidth, totalColumnWeight)}
+            flexGrow={0}
+            flexShrink={0}
+            width={500}
             label={col.name}
             cellRenderer={(cellProps) => (
               <LinkCell onClick={() => props.onJobIdClick(cellProps.rowIndex)} {...cellProps} />
@@ -96,7 +102,9 @@ export default function createJobTableColumns(props: JobTableColumnsProps) {
           <Column
             key={i}
             dataKey={col.accessor}
-            width={calculateColumnWidth(col.width, leftoverWidth, totalColumnWeight)}
+            flexGrow={0}
+            flexShrink={0}
+            width={500}
             label={col.name}
             headerRenderer={(headerProps) => (
               <SearchHeaderCell
@@ -120,7 +128,9 @@ export default function createJobTableColumns(props: JobTableColumnsProps) {
                 return job.annotations[dataKey]
               }
             }}
-            width={calculateColumnWidth(col.width, leftoverWidth, totalColumnWeight)}
+            flexGrow={0}
+            flexShrink={0}
+            width={500}
             label={col.name}
             headerRenderer={(headerProps) => (
               <SearchHeaderCell
