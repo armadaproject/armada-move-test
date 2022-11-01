@@ -7,7 +7,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/G-Research/armada/internal/eventingester/model"
+	"github.com/armadaproject/armada/internal/eventingester/model"
 )
 
 type MockEventStore struct {

@@ -5,9 +5,9 @@ import (
 	"os/signal"
 	"sync"
 
-	"github.com/G-Research/armada/internal/common"
-	"github.com/G-Research/armada/internal/common/compress"
-	"github.com/G-Research/armada/internal/lookoutingester/metrics"
+	"github.com/armadaproject/armada/internal/common"
+	"github.com/armadaproject/armada/internal/common/compress"
+	"github.com/armadaproject/armada/internal/lookoutingester/metrics"
 
 	"github.com/apache/pulsar-client-go/pulsar"
 	"github.com/grpc-ecosystem/go-grpc-middleware/logging/logrus/ctxlogrus"
@@ -15,13 +15,13 @@ import (
 	"golang.org/x/net/context"
 	"k8s.io/apimachinery/pkg/util/clock"
 
-	"github.com/G-Research/armada/internal/lookout/configuration"
-	"github.com/G-Research/armada/internal/lookout/postgres"
-	"github.com/G-Research/armada/internal/lookoutingester/batch"
-	"github.com/G-Research/armada/internal/lookoutingester/instructions"
-	"github.com/G-Research/armada/internal/lookoutingester/lookoutdb"
-	"github.com/G-Research/armada/internal/lookoutingester/model"
-	"github.com/G-Research/armada/internal/pulsarutils"
+	"github.com/armadaproject/armada/internal/lookout/configuration"
+	"github.com/armadaproject/armada/internal/lookout/postgres"
+	"github.com/armadaproject/armada/internal/lookoutingester/batch"
+	"github.com/armadaproject/armada/internal/lookoutingester/instructions"
+	"github.com/armadaproject/armada/internal/lookoutingester/lookoutdb"
+	"github.com/armadaproject/armada/internal/lookoutingester/model"
+	"github.com/armadaproject/armada/internal/pulsarutils"
 )
 
 // Run will create a pipeline that will take Armada event messages from Pulsar and update the

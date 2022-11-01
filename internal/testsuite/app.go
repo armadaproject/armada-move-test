@@ -13,10 +13,10 @@ import (
 	"text/tabwriter"
 	"time"
 
-	"github.com/G-Research/armada/internal/testsuite/joblogger"
+	"github.com/armadaproject/armada/internal/testsuite/joblogger"
 
-	"github.com/G-Research/armada/internal/testsuite/eventbenchmark"
-	"github.com/G-Research/armada/internal/testsuite/eventlogger"
+	"github.com/armadaproject/armada/internal/testsuite/eventbenchmark"
+	"github.com/armadaproject/armada/internal/testsuite/eventlogger"
 
 	"github.com/gogo/protobuf/jsonpb"
 	"github.com/hashicorp/go-multierror"
@@ -27,12 +27,12 @@ import (
 	apimachineryYaml "k8s.io/apimachinery/pkg/util/yaml"
 	"sigs.k8s.io/yaml"
 
-	"github.com/G-Research/armada/internal/testsuite/build"
-	"github.com/G-Research/armada/internal/testsuite/eventsplitter"
-	"github.com/G-Research/armada/internal/testsuite/eventwatcher"
-	"github.com/G-Research/armada/internal/testsuite/submitter"
-	"github.com/G-Research/armada/pkg/api"
-	"github.com/G-Research/armada/pkg/client"
+	"github.com/armadaproject/armada/internal/testsuite/build"
+	"github.com/armadaproject/armada/internal/testsuite/eventsplitter"
+	"github.com/armadaproject/armada/internal/testsuite/eventwatcher"
+	"github.com/armadaproject/armada/internal/testsuite/submitter"
+	"github.com/armadaproject/armada/pkg/api"
+	"github.com/armadaproject/armada/pkg/client"
 )
 
 type App struct {

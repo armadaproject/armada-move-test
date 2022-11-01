@@ -3,7 +3,7 @@ package batch
 import (
 	"time"
 
-	"github.com/G-Research/armada/internal/pulsarutils"
+	"github.com/armadaproject/armada/internal/pulsarutils"
 
 	"k8s.io/apimachinery/pkg/util/clock"
 )

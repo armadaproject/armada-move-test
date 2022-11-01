@@ -1,7 +1,7 @@
 package model
 
 import (
-	"github.com/G-Research/armada/internal/pulsarutils"
+	"github.com/armadaproject/armada/internal/pulsarutils"
 )
 
 // BatchUpdate represents an Event Row along with information about the originating pulsar message

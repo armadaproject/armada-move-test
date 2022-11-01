@@ -11,9 +11,9 @@ import (
 	pool "github.com/jolestar/go-commons-pool"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/G-Research/armada/internal/armada/configuration"
-	"github.com/G-Research/armada/internal/common/compress"
-	"github.com/G-Research/armada/pkg/api"
+	"github.com/armadaproject/armada/internal/armada/configuration"
+	"github.com/armadaproject/armada/internal/common/compress"
+	"github.com/armadaproject/armada/pkg/api"
 )
 
 type EventStore interface {

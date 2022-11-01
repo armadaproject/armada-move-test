@@ -3,10 +3,10 @@ package validation
 import (
 	"github.com/pkg/errors"
 
-	"github.com/G-Research/armada/internal/armada/configuration"
-	"github.com/G-Research/armada/internal/common/armadaerrors"
+	"github.com/armadaproject/armada/internal/armada/configuration"
+	"github.com/armadaproject/armada/internal/common/armadaerrors"
 
-	"github.com/G-Research/armada/pkg/api"
+	"github.com/armadaproject/armada/pkg/api"
 )
 
 func ValidateApiJob(j *api.Job, config configuration.PreemptionConfig) error {

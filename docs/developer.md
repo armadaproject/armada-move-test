@@ -39,7 +39,7 @@ jobs:
     podSpec:
 ```
 
-For more details on submitting jobs to Armada, see [the user guide](https://github.com/G-Research/armada/blob/master/docs/user.md). Once you submit jobs, you should see pods appearing in your worker cluster(s).
+For more details on submitting jobs to Armada, see [the user guide](https://github.com/armadaproject/armada/blob/master/docs/user.md). Once you submit jobs, you should see pods appearing in your worker cluster(s).
 
 **Note:** Depending on your Docker setup you might need to load images for jobs you plan to run manually:
 ```bash

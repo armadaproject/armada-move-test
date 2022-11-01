@@ -11,9 +11,9 @@ import (
 	"github.com/sirupsen/logrus"
 	"golang.org/x/sync/errgroup"
 
-	"github.com/G-Research/armada/internal/common/eventutil"
-	"github.com/G-Research/armada/internal/pulsarutils"
-	"github.com/G-Research/armada/pkg/armadaevents"
+	"github.com/armadaproject/armada/internal/common/eventutil"
+	"github.com/armadaproject/armada/internal/pulsarutils"
+	"github.com/armadaproject/armada/pkg/armadaevents"
 )
 
 // Service that updates the scheduler database.

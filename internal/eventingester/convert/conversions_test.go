@@ -8,13 +8,13 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/G-Research/armada/internal/common/compress"
+	"github.com/armadaproject/armada/internal/common/compress"
 
 	"github.com/gogo/protobuf/proto"
 	"github.com/google/uuid"
 
-	"github.com/G-Research/armada/internal/pulsarutils"
-	"github.com/G-Research/armada/pkg/armadaevents"
+	"github.com/armadaproject/armada/internal/pulsarutils"
+	"github.com/armadaproject/armada/pkg/armadaevents"
 )
 
 const (

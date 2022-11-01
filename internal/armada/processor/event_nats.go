@@ -6,11 +6,11 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/G-Research/armada/internal/armada/repository"
-	"github.com/G-Research/armada/internal/armada/server"
-	"github.com/G-Research/armada/internal/common/eventstream"
-	"github.com/G-Research/armada/internal/common/logging"
-	"github.com/G-Research/armada/pkg/api"
+	"github.com/armadaproject/armada/internal/armada/repository"
+	"github.com/armadaproject/armada/internal/armada/server"
+	"github.com/armadaproject/armada/internal/common/eventstream"
+	"github.com/armadaproject/armada/internal/common/logging"
+	"github.com/armadaproject/armada/pkg/api"
 )
 
 type StreamEventStore struct {

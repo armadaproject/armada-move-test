@@ -4,15 +4,15 @@ import (
 	"testing"
 	"time"
 
-	"github.com/G-Research/armada/internal/common/compress"
+	"github.com/armadaproject/armada/internal/common/compress"
 
 	"github.com/gogo/protobuf/proto"
 
 	"github.com/go-redis/redis"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/G-Research/armada/internal/armada/configuration"
-	"github.com/G-Research/armada/pkg/api"
+	"github.com/armadaproject/armada/internal/armada/configuration"
+	"github.com/armadaproject/armada/pkg/api"
 )
 
 func TestCheckStreamExists(t *testing.T) {

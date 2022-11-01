@@ -11,10 +11,10 @@ import (
 	"github.com/avast/retry-go"
 	"github.com/google/uuid"
 
-	"github.com/G-Research/armada/internal/armadactl"
-	"github.com/G-Research/armada/pkg/api"
-	"github.com/G-Research/armada/pkg/client"
-	cq "github.com/G-Research/armada/pkg/client/queue"
+	"github.com/armadaproject/armada/internal/armadactl"
+	"github.com/armadaproject/armada/pkg/api"
+	"github.com/armadaproject/armada/pkg/client"
+	cq "github.com/armadaproject/armada/pkg/client/queue"
 )
 
 func TestVersion(t *testing.T) {

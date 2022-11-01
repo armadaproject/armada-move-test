@@ -7,10 +7,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/G-Research/armada/internal/lookoutingester/metrics"
+	"github.com/armadaproject/armada/internal/lookoutingester/metrics"
 
-	"github.com/G-Research/armada/internal/lookout/repository"
-	"github.com/G-Research/armada/internal/pulsarutils"
+	"github.com/armadaproject/armada/internal/lookout/repository"
+	"github.com/armadaproject/armada/internal/pulsarutils"
 
 	"github.com/google/uuid"
 	"github.com/jackc/pgx/v4"
@@ -18,8 +18,8 @@ import (
 	"github.com/pkg/errors"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/G-Research/armada/internal/common/armadaerrors"
-	"github.com/G-Research/armada/internal/lookoutingester/model"
+	"github.com/armadaproject/armada/internal/common/armadaerrors"
+	"github.com/armadaproject/armada/internal/lookoutingester/model"
 )
 
 type DB struct {

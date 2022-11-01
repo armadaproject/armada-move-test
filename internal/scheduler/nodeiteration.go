@@ -9,7 +9,7 @@ import (
 	"github.com/pkg/errors"
 	"k8s.io/apimachinery/pkg/api/resource"
 
-	"github.com/G-Research/armada/internal/scheduler/schedulerobjects"
+	"github.com/armadaproject/armada/internal/scheduler/schedulerobjects"
 )
 
 // NodeTypesResourceIterator extends NodeTypeResourceIterator to iterate over nodes of several node types.

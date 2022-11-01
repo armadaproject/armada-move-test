@@ -6,11 +6,11 @@ import (
 	"github.com/gogo/protobuf/proto"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/G-Research/armada/internal/common/compress"
-	"github.com/G-Research/armada/internal/common/eventutil"
-	"github.com/G-Research/armada/internal/eventingester/model"
-	"github.com/G-Research/armada/internal/pulsarutils"
-	"github.com/G-Research/armada/pkg/armadaevents"
+	"github.com/armadaproject/armada/internal/common/compress"
+	"github.com/armadaproject/armada/internal/common/eventutil"
+	"github.com/armadaproject/armada/internal/eventingester/model"
+	"github.com/armadaproject/armada/internal/pulsarutils"
+	"github.com/armadaproject/armada/pkg/armadaevents"
 )
 
 // MessageRowConverter converts raw pulsar messages into events that we can store in Redis

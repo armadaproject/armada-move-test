@@ -1,6 +1,6 @@
 package scheduling
 
-import "github.com/G-Research/armada/pkg/api"
+import "github.com/armadaproject/armada/pkg/api"
 
 type LeasePayloadLimit struct {
 	remainingJobCount              int

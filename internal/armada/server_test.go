@@ -17,14 +17,14 @@ import (
 	v1 "k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/api/resource"
 
-	"github.com/G-Research/armada/internal/armada/configuration"
-	"github.com/G-Research/armada/internal/armada/permissions"
-	"github.com/G-Research/armada/internal/common"
-	"github.com/G-Research/armada/internal/common/auth/authorization"
-	authConfiguration "github.com/G-Research/armada/internal/common/auth/configuration"
-	"github.com/G-Research/armada/internal/common/auth/permission"
-	"github.com/G-Research/armada/internal/common/health"
-	"github.com/G-Research/armada/pkg/api"
+	"github.com/armadaproject/armada/internal/armada/configuration"
+	"github.com/armadaproject/armada/internal/armada/permissions"
+	"github.com/armadaproject/armada/internal/common"
+	"github.com/armadaproject/armada/internal/common/auth/authorization"
+	authConfiguration "github.com/armadaproject/armada/internal/common/auth/configuration"
+	"github.com/armadaproject/armada/internal/common/auth/permission"
+	"github.com/armadaproject/armada/internal/common/health"
+	"github.com/armadaproject/armada/pkg/api"
 )
 
 func TestSubmitJob_EmptyPodSpec(t *testing.T) {

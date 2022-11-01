@@ -6,7 +6,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/G-Research/armada/internal/scheduler/sql"
+	"github.com/armadaproject/armada/internal/scheduler/sql"
 )
 
 func RunsSchema() string {
