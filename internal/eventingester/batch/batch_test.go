@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/G-Research/armada/internal/pulsarutils"
+	"github.com/armadaproject/armada/internal/pulsarutils"
 
 	"github.com/stretchr/testify/assert"
 	"k8s.io/apimachinery/pkg/util/clock"

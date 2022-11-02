@@ -6,7 +6,7 @@ import (
 
 	resource "k8s.io/apimachinery/pkg/api/resource"
 
-	"github.com/G-Research/armada/pkg/api"
+	"github.com/armadaproject/armada/pkg/api"
 )
 
 func NewNodeFromNodeInfo(nodeInfo *api.NodeInfo, executor string, allowedPriorities []int32, indexedTaints map[string]interface{}, indexedLabels map[string]interface{}) *Node {

@@ -9,9 +9,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/G-Research/armada/internal/testsuite/common"
+	"github.com/armadaproject/armada/internal/testsuite/common"
 
-	"github.com/G-Research/armada/pkg/api"
+	"github.com/armadaproject/armada/pkg/api"
 )
 
 type EventsLogger struct {

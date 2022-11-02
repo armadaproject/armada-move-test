@@ -9,14 +9,14 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/G-Research/armada/internal/testsuite/eventbenchmark"
+	"github.com/armadaproject/armada/internal/testsuite/eventbenchmark"
 
 	"github.com/jstemmer/go-junit-report/v2/junit"
 	"github.com/mattn/go-zglob"
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
 
-	"github.com/G-Research/armada/internal/testsuite"
+	"github.com/armadaproject/armada/internal/testsuite"
 )
 
 // Submit batches of jobs and wait for those jobs to finish.

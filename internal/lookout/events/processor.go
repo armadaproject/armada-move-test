@@ -3,9 +3,9 @@ package events
 import (
 	"fmt"
 
-	"github.com/G-Research/armada/internal/common/eventstream"
-	"github.com/G-Research/armada/internal/lookout/repository"
-	"github.com/G-Research/armada/pkg/api"
+	"github.com/armadaproject/armada/internal/common/eventstream"
+	"github.com/armadaproject/armada/internal/lookout/repository"
+	"github.com/armadaproject/armada/pkg/api"
 )
 
 type EventProcessor struct {

@@ -54,8 +54,8 @@ sed -i 's/\(json=\([^,]*\),[^"]*" json:"\)[^,]*,/\1\2,/g'  pkg/api/lookout/*.pb.
 sed -i 's/\(json=\([^,]*\),[^"]*" json:"\)[^,]*,/\1\2,/g'  pkg/api/binoculars/*.pb.go
 
 # gogo in current version does not respect go_package option and emits wrong import
-sed -i 's|api "pkg/api"|api "github.com/G-Research/armada/pkg/api"|g'  pkg/api/lookout/*.pb.go
-sed -i 's|api "pkg/api"|api "github.com/G-Research/armada/pkg/api"|g'  pkg/api/binoculars/*.pb.go
+sed -i 's|api "pkg/api"|api "github.com/armadaproject/armada/pkg/api"|g'  pkg/api/lookout/*.pb.go
+sed -i 's|api "pkg/api"|api "github.com/armadaproject/armada/pkg/api"|g'  pkg/api/binoculars/*.pb.go
 
 # protoc grpc-gateway + swagger
 protoc \

@@ -10,7 +10,7 @@ import (
 	"github.com/jackc/pgx/v4/pgxpool"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/G-Research/armada/internal/scheduler/sql"
+	"github.com/armadaproject/armada/internal/scheduler/sql"
 )
 
 // Used for tests.

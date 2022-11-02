@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/G-Research/armada/internal/lookoutingester/metrics"
+	"github.com/armadaproject/armada/internal/lookoutingester/metrics"
 
 	"github.com/golang/protobuf/proto"
 	"github.com/google/uuid"
@@ -15,12 +15,12 @@ import (
 	"k8s.io/apimachinery/pkg/api/resource"
 	"k8s.io/utils/pointer"
 
-	"github.com/G-Research/armada/internal/common/compress"
-	"github.com/G-Research/armada/internal/common/eventutil"
-	"github.com/G-Research/armada/internal/lookout/repository"
-	"github.com/G-Research/armada/internal/lookoutingester/model"
-	"github.com/G-Research/armada/internal/pulsarutils"
-	"github.com/G-Research/armada/pkg/armadaevents"
+	"github.com/armadaproject/armada/internal/common/compress"
+	"github.com/armadaproject/armada/internal/common/eventutil"
+	"github.com/armadaproject/armada/internal/lookout/repository"
+	"github.com/armadaproject/armada/internal/lookoutingester/model"
+	"github.com/armadaproject/armada/internal/pulsarutils"
+	"github.com/armadaproject/armada/pkg/armadaevents"
 )
 
 // Mock Pulsar Message with implementations only for the functions we care about

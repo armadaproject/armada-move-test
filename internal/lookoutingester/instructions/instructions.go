@@ -6,7 +6,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/G-Research/armada/internal/lookoutingester/metrics"
+	"github.com/armadaproject/armada/internal/lookoutingester/metrics"
 
 	"github.com/gogo/protobuf/proto"
 	"github.com/google/uuid"
@@ -16,15 +16,15 @@ import (
 	log "github.com/sirupsen/logrus"
 	"k8s.io/utils/pointer"
 
-	"github.com/G-Research/armada/internal/common/compress"
-	"github.com/G-Research/armada/internal/common/eventutil"
-	"github.com/G-Research/armada/internal/common/requestid"
-	"github.com/G-Research/armada/internal/common/util"
-	"github.com/G-Research/armada/internal/lookout/repository"
-	"github.com/G-Research/armada/internal/lookoutingester/model"
-	"github.com/G-Research/armada/internal/pulsarutils"
-	"github.com/G-Research/armada/internal/pulsarutils/pulsarrequestid"
-	"github.com/G-Research/armada/pkg/armadaevents"
+	"github.com/armadaproject/armada/internal/common/compress"
+	"github.com/armadaproject/armada/internal/common/eventutil"
+	"github.com/armadaproject/armada/internal/common/requestid"
+	"github.com/armadaproject/armada/internal/common/util"
+	"github.com/armadaproject/armada/internal/lookout/repository"
+	"github.com/armadaproject/armada/internal/lookoutingester/model"
+	"github.com/armadaproject/armada/internal/pulsarutils"
+	"github.com/armadaproject/armada/internal/pulsarutils/pulsarrequestid"
+	"github.com/armadaproject/armada/pkg/armadaevents"
 )
 
 type HasNodeName interface {

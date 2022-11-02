@@ -3,11 +3,11 @@ package batch
 import (
 	"time"
 
-	"github.com/G-Research/armada/internal/pulsarutils"
+	"github.com/armadaproject/armada/internal/pulsarutils"
 
 	"k8s.io/apimachinery/pkg/util/clock"
 
-	"github.com/G-Research/armada/internal/lookoutingester/model"
+	"github.com/armadaproject/armada/internal/lookoutingester/model"
 )
 
 // Batch batches up Instruction sets from a channel.  Batches are created whenever maxItems InstructionSets have been

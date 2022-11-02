@@ -10,9 +10,9 @@ import (
 	"github.com/mattn/go-zglob"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/G-Research/armada/internal/testsuite"
-	"github.com/G-Research/armada/pkg/client"
-	"github.com/G-Research/armada/pkg/client/util"
+	"github.com/armadaproject/armada/internal/testsuite"
+	"github.com/armadaproject/armada/pkg/client"
+	"github.com/armadaproject/armada/pkg/client/util"
 )
 
 const (

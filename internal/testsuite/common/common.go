@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/G-Research/armada/pkg/api"
+	"github.com/armadaproject/armada/pkg/api"
 )
 
 func ShortStringFromApiEvent(msg *api.EventMessage) string {

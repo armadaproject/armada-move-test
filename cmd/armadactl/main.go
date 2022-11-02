@@ -3,8 +3,8 @@ package main
 import (
 	"log"
 
-	"github.com/G-Research/armada/cmd/armadactl/cmd"
-	"github.com/G-Research/armada/internal/common"
+	"github.com/armadaproject/armada/cmd/armadactl/cmd"
+	"github.com/armadaproject/armada/internal/common"
 )
 
 // Config is handled by cmd/params.go

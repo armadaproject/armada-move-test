@@ -26,5 +26,5 @@ linters-settings:
       - analyze
       - serialize
   goimports:
-    local-prefixes: github.com/G-Research/armada
+    local-prefixes: github.com/armadaproject/armada
 

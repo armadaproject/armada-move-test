@@ -3,7 +3,7 @@ package eventwatcher
 import (
 	"github.com/pkg/errors"
 
-	"github.com/G-Research/armada/pkg/api"
+	"github.com/armadaproject/armada/pkg/api"
 )
 
 func validateEvent(actual *api.EventMessage, expected *api.EventMessage) error {

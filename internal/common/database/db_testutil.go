@@ -8,7 +8,7 @@ import (
 	"github.com/jackc/pgx/v4/pgxpool"
 	"github.com/pkg/errors"
 
-	"github.com/G-Research/armada/internal/common/util"
+	"github.com/armadaproject/armada/internal/common/util"
 )
 
 func WithTestDb(migrations []migration, action func(db *pgxpool.Pool) error) error {

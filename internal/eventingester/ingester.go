@@ -13,12 +13,12 @@ import (
 	"github.com/sirupsen/logrus"
 	"k8s.io/apimachinery/pkg/util/clock"
 
-	"github.com/G-Research/armada/internal/common/compress"
-	"github.com/G-Research/armada/internal/eventingester/batch"
-	"github.com/G-Research/armada/internal/eventingester/configuration"
-	"github.com/G-Research/armada/internal/eventingester/convert"
-	"github.com/G-Research/armada/internal/eventingester/store"
-	"github.com/G-Research/armada/internal/pulsarutils"
+	"github.com/armadaproject/armada/internal/common/compress"
+	"github.com/armadaproject/armada/internal/eventingester/batch"
+	"github.com/armadaproject/armada/internal/eventingester/configuration"
+	"github.com/armadaproject/armada/internal/eventingester/convert"
+	"github.com/armadaproject/armada/internal/eventingester/store"
+	"github.com/armadaproject/armada/internal/pulsarutils"
 )
 
 // Run will create a pipeline that will take Armada event messages from Pulsar and update the

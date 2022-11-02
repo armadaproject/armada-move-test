@@ -1,6 +1,6 @@
 package eventstream
 
-import "github.com/G-Research/armada/pkg/api"
+import "github.com/armadaproject/armada/pkg/api"
 
 type AckFn func() error
 

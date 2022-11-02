@@ -10,7 +10,7 @@ import (
 	"github.com/apache/pulsar-client-go/pulsar"
 	"github.com/sirupsen/logrus"
 
-	"github.com/G-Research/armada/internal/common/logging"
+	"github.com/armadaproject/armada/internal/common/logging"
 )
 
 // ConsumerMessageId wraps a pulsar message id  and an identifier for the consumer which originally received the
