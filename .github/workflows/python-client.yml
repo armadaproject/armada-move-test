@@ -34,7 +34,7 @@ jobs:
       matrix:
         go: [ '1.18' ]
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3.1.0
       - uses: ./.github/workflows/go-setup
       - uses: ./.github/workflows/python-tests
         with:
@@ -46,7 +46,7 @@ jobs:
       matrix:
         go: [ '1.18' ]
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v3.1.0
       - uses: ./.github/workflows/go-setup
       - uses: actions/setup-python@v2
         with:
